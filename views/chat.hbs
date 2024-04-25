@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex h-screen">
+      <div class="side bg-stone-700 w-1/5">
+
+      </div>
+
+      <div
+        class="main-content-container flex flex-col justify-center items-center pt-15 w-screen"
+      >
+        <h2 class="mb-4 mt-5 text-2xl select-none">Your Question .... ?</h2>
+        <div class="flex gap-10 prompt w-3/5">
+          <form
+            class="flex justify-center items-center mx-auto w-full gap-5"
+            action="/chat"
+            method="post"
+          >
+            <input
+              class="bg-stone-300 p-3 w-full text-slate-700"
+              type="text"
+              name="prompt"
+              id=""
+              value=""
+              placeholder="What's in your mind .... ?"
+            />
+            <button
+              type="submit"
+              class="w-2/4 h-full border-none hover:bg-yellow-400 rounded bg-yellow-200"
+            >Send</button></form>
+        </div>
+
+        {{#if content}}
+
+          <div
+            id="answer"
+            class="answer bg-stone-200 mt-10 h-4/5 bg-slate-800 w-3/5 overflow-scroll p-4"
+          >
+            {{{content}}}
+          </div>
+
+        {{/if}}
+        <div class="clear bg-slate-200"></div>
+      </div>
+
+    </div>
+  </body>
+
+</html>
