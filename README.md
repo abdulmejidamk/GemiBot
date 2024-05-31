@@ -29,7 +29,7 @@ npm install
 
 3. **Set up your Gemini API Key:**
 
-   - Obtain your GEmini API Key from [GEmini's website](https://ai.google.dev/gemini-api).
+   - Obtain your Gemini API Key from [GEmini's website](https://ai.google.dev/gemini-api).
    - Store your API Key securely, preferably in an environment variable.
 
 4. **Start the server:**
@@ -47,9 +47,3 @@ npm start
 Configure Your .env File 
 API_KEY=[your key]
 
-## Run
-npm start
-
-## Contact
-
-[Provide contact information for users to reach out with questions, feedback, or support requests.]
