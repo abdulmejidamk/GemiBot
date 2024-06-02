@@ -58,6 +58,6 @@ app.post("/register", async (req, res) => {
   res.redirect("/login");
 });
 
-app.listen(3000, (req, res) => {
-  console.log("Server Listening at port 3000.....");
+app.listen(4000, (req, res) => {
+  console.log("Server Listening at port 4000.....");
 });
