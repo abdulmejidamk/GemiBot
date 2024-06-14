@@ -1,4 +1,4 @@
-# Chatbot Tailwind CSS, Handlebars, Node.js, and Gemini API
+# Tailwind CSS, Handlebars, Node.js, and Gemini API
 
 ## Overview
 
